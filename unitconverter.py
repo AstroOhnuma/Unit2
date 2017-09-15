@@ -18,5 +18,4 @@ elif num==3:
     print(liquid,'liters is',liquid*0.264172,'gallons')
 elif num==4:
     temperature = float(input('Enter Degrees in Celsius: '))
-    print(temperature,'degrees Celsius is',temperature*32,'degrees in Fahrenheit')
-    
+    print(temperature,'degrees Celsius is',(temperature*1.8)+(32),'degrees in Fahrenheit')
